@@ -38,58 +38,16 @@ const myRouter = new Router({
                     meta: {title: '测试新闻'}
                 },
                 {
-                    path: '/icon',
-                    component: getComponent('icons', 'index'),
+                    path: '/component/annex-upload',
+                    component: getComponent('plugs/drag', 'annex-upload'),
                     name: 'icon',
-                    meta: {title: '自定义图标'}
+                    meta: {title: '图片上传拖拽'}
                 },
                 {
-                    path: '/editor',
-                    component: getComponent('component', 'editor'),
-                    name: 'editor',
-                    meta: {title: '富文本编译器'}
-                },
-                {
-                    path: '/countTo',
-                    component: getComponent('component', 'countTo'),
-                    name: 'countTo',
-                    meta: {title: '数字滚动'}
-                },
-                {
-                    path: '/tree',
-                    component: getComponent('component', 'tree'),
-                    name: 'tree',
-                    meta: {title: '自定义树'}
-                },
-                {
-                    path: '/treeTable',
-                    component: getComponent('component', 'treeTable'),
-                    name: 'treeTable',
-                    meta: {title: '表格树'}
-                },
-                {
-                    path: '/treeSelect',
-                    component: getComponent('component', 'treeSelect'),
-                    name: 'treeSelect',
-                    meta: {title: '下拉树'}
-                },
-                {
-                    path: '/draglist',
-                    component: getComponent('draggable', 'draglist'),
-                    name: 'draglist',
-                    meta: {title: '拖拽列表'}
-                },
-                {
-                    path: '/dragtable',
-                    component: getComponent('draggable', 'dragtable'),
-                    name: 'dragtable',
-                    meta: {title: '拖拽表格'}
-                },
-                {
-                    path: '/cricle',
-                    component: getComponent('charts', 'cricle'),
-                    name: 'cricle',
-                    meta: {title: '饼图'}
+                    path: '/component/vmodel',
+                    component: getComponent('plugs/vmodel', 'vmodel'),
+                    name: 'icon',
+                    meta: {title: 'vmodel双向绑定'}
                 },
             ]
         }]

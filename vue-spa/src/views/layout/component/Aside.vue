@@ -52,7 +52,7 @@
                 items: [
                     {
                         icon: "el-icon-edit-outline",
-                        index: "news",
+                        index: "/news",
                         title: "测试新闻"
                     },
                     {
@@ -71,12 +71,16 @@
                         title: "组件",
                         subs: [
                             {
+                                index: "/component/annex-upload",
+                                title: "图片上传拖拽"
+                            },
+                            {
                                 index: "editor",
                                 title: "富文本编译器"
                             },
                             {
-                                index: "countTo",
-                                title: "数字滚动"
+                                index: "/component/vmodel",
+                                title: "vmodel双向绑定",
                             },
                             {
                                 index: "trees",
